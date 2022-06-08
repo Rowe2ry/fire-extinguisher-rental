@@ -1,11 +1,11 @@
 <template>
     <div class="card">
-        <img class="image" src="" alt="">
+        <img class="image" :src="require(`@/assets/images/${card.image || 'fe1.jpg' }`)" alt="fire extinguishers">
         <h3 class="header">
-
+            {{ card.title }}
         </h3>
         <p class="snippet">
-
+            {{ card.snippet }}
         </p>
     </div>
 </template>

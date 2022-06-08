@@ -17,8 +17,8 @@
 
 <style scoped>
     .Hero {
-        height: 50vh;
-        position: relative;
+        width: clamp(150px, 90%, 980px);
+        /* position: relative; */
         display: flex;
         padding: 5rem 0;
         align-items: flex-start;
@@ -30,23 +30,23 @@
     }
     .header {
         font-weight: 900;
-        font-size: 5rem;
+        font-size: clamp(2rem, 5vw ,5rem);
     }
     .snippet {
         color: grey;
         font-size: 1.25rem;
     }
     .image {
-        width: 27.5rem;
+        width: 30vw;
         margin-top: 2rem;
     }
-    .overlay {
+    /* .overlay {
         background: rgba(0, 0, 0, 0);
         position: absolute;
         width: 100%;
         height: 100%;
         top: 0;
-    }
+    } */
     .button {
         padding: 1rem 4rem;
         border-radius: 100rem;

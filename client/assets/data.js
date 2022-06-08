@@ -98,7 +98,7 @@ export const largeCardSections = [
               },
               {
                 id: 11,
-                image: "fe17.jpeg"
+                image: "fe17.jpg"
               },
               {
                 id: 12,
