@@ -2,7 +2,7 @@ export const largeCardSections = [
     {
       id: 1,
       title: "Top-rated Fire Extinguisher in Niagara",
-      snippet: "User say these are the best fire extinguishers to rent if your house is burning down.",
+      snippet: "Users say these are the best fire extinguishers to rent if your house is burning down.",
       cards: [
         {
           id: 19,
