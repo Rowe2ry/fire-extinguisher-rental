@@ -31,21 +31,24 @@
                 {{ product.description }}
             </p>
         </div>
+        <Reviews />
       </div>
       <div v-else class="container padding">
-          Page not Found
+          <PageNotFound />
       </div>
   </div>
 </template>
 
 <script>
+import PageNotFound from '../../components/PageNotFound.vue'
   export default {
     computed: {
-      product() {
-        return this.$store.getters.getProductById(this.$route.params.id)
-      }
-    }
-  }
+        product() {
+            return this.$store.getters.getProductById(this.$route.params.id);
+        }
+    },
+    components: { PageNotFound }
+}
 </script>
 
 <style scoped>
